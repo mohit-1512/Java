@@ -1,0 +1,8 @@
+reduce 
+
+converts a stream into 1 final 
+common example list of integers into 1 value may be accumulator - sum
+
+collect
+
+converts a stream into map/list - collections

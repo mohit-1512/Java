@@ -1,0 +1,35 @@
+Functional Interfaces(SAM Interface - Single Abstract 
+Method Interfaces)have exactly one abstract methods inside them.
+Hence to use them instead of creating anonymous class we can use Functional Interfaces
+Runnable is a Functional Interface we can either create anonymous class or use Lambda
+to avoid giving details to compiler which it already knows.
+
+InterfaceName varName = (Method Arguments...) -> {
+	//Logic 
+	//check return type.... if needed return that value
+	// if one line get rid of "{}" 
+
+}; 
+
+
+
+@Functional Interfaces catches compiler errors.
+
+
+Key Points
+1. Can have only 1 abstract method but can have other abstract methods 
+from java.lang
+
+2. Interface can extend another interface and if its extends a functional Interface and
+it doesn't declare any new abstract methods it is also a SAM/FI
+
+3. FI's in java.util.functions
+
+
+Instances of FI can be created with Lambda Expressions (example above),
+method references(example below) and constructor references.
+
+nameList Example previously
+
+(String s) -> System.out.print(s) ==> (System.out::print)
+

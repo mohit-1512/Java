@@ -1,0 +1,9 @@
+Filtering and matching
+
+stream.filter(predicate) 
+returns stream as per predicate
+
+stream matching returns boolean as per predicate
+stream.anyMatch -> if any 1 item of stream matches predicate returns true
+stream.noneMatch -> if no item of stream matches predicate return true
+stream.allMatch -> if all item of stream matches predicate return true 

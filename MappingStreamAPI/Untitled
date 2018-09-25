@@ -1,0 +1,6 @@
+Map and FlatMap
+
+map is used to convert 1 stream into another something like processing 
+
+flatMap is used for collecting similar beans which may be a part of 
+another list of instances

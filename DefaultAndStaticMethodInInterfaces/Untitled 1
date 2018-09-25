@@ -1,0 +1,3 @@
+interfaces with default and static method
+
+In interfaces cannot override object class methods as implementing class gets confused what to override 

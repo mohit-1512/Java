@@ -1,0 +1,22 @@
+Streams-
+Represent sequence of objects of specific type from source which support aggregate operations.
+Never stores.
+IO streams or collection
+Aggregate operations-> map, filter, map, reduce
+stream gives stream mostly input-> process-> stream (collect //terminal operation)
+end of pipeline. 
+automatic iteration internal iteration
+
+
+java.util.stream;
+
+Stream creation-> collection Arrays.stream(arr[])
+Stream<String> stream = Arrays.stream(new String{"31","21","21"});
+stream = Stream.of("31","21","21");
+
+.stream() is method available in Collection interface which allows 
+conversion of collection to stream type
+
+Stream<String> stream = list.stream();
+
+Once stream is consumed it cant be reused
